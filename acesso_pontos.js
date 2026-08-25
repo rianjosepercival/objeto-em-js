@@ -10,3 +10,9 @@ console.log(
 );
 
 console.log(`Os 3 primeiros digitos do CPF são ${cliente.cpf.substring(0, 3)}`);
+
+ const chave = ["nome", "idade", "CPF", "email"];
+
+ chaves.forEach((chave) => {
+  console.log(`a chave ${chave} te valor ${cliente[chave]}`);
+ });
